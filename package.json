@@ -17,7 +17,8 @@
     "start": "babel-node ./webpack/dev-server.js",
     "db": "babel-node ./db/console.js",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "proprietary",
@@ -50,7 +51,7 @@
     "file-loader": "^0.8.5",
     "foundation-sites": "6.2.1",
     "git-rev-sync": "^1.6.0",
-    "grant-koa": "^3.6.0",
+    "grant-koa": "^4.0.0",
     "highcharts": "^4.2.5",
     "history": "^2.0.0-rc2",
     "humanize-number": "0.0.2",
@@ -122,7 +123,7 @@
     "websocket": "^1.0.22",
     "whatwg-fetch": "^0.11.1",
     "xmldom": "^0.1.22",
-    "snyk": "^1.19.1"
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "babel-plugin-react-transform": "^2.0.2",
